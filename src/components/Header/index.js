@@ -4,13 +4,13 @@ class Header extends Component{
     constructor(props){
         super(props)
         this.state = {
-        welcomeMessage: 'Bienvenido!!!',
+        welcomeMessage: 'Bienvenido a mi playlist',
         }
     }
 
     componentDidMount(){
         setTimeout(() =>{
-            this.setState({welcomeMessage: 'Apoyános respondiendo!!!'})
+            this.setState({welcomeMessage: 'La App se ha cargado correctamente'})
         }, 2000)
     }
 

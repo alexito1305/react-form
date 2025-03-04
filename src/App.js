@@ -1,13 +1,13 @@
 import Header from "./components/Header";
-import Form from "./components/Form";
+import Song from "./components/Song";
 import Footer from "./components/Footer";
 import "./index.css";
 
 function App() {
   return (
     <div className="App">
-      <Header appName = "Encuesta" />
-      <Form value= " " />
+      <Header appName = "Biblioteca Musical de Alex_AB" />
+      <Song value= " " />
       <Footer/>
     </div>
    
